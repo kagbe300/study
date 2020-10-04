@@ -6,5 +6,5 @@ const fib = n => {
 	  next = prev + next;
 	  prev = temp;
 	}
-	document.getElementById('fibonachi').value = document.getElementById('fibonachi').value + prev;
+	console.log(prev);
   }
